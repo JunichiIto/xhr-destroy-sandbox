@@ -57,6 +57,7 @@ class PostsController < ApplicationController
     @post.destroy
     @post_id = @post.id
     @msg = 'Post was successfully destroyed.'
+    sleep 2
     respond_to do |format|
       format.html { redirect_to posts_url, notice: 'Post was successfully destroyed.' }
       format.json { head :no_content }
