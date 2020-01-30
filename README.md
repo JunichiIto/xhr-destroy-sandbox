@@ -1,24 +1,16 @@
-# README
+# XhrDestroySandbox
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sample app for XHR destroy.
 
-Things you may want to cover:
+## How to run tests
 
-* Ruby version
+```
+bundle install
+rails db:migrate
+bundle exec rspec
+```
 
-* System dependencies
+## License
 
-* Configuration
+MIT License.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
